@@ -70,6 +70,16 @@
             <version>${appengine.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+        	<groupId>com.restfb</groupId>
+        	<artifactId>restfb</artifactId>
+        	<version>1.23.0</version>
+        </dependency>
+        <dependency>
+        	<groupId>com.google.inject</groupId>
+        	<artifactId>guice</artifactId>
+        	<version>3.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -151,7 +161,7 @@
                 <set_default>true</set_default>
               </configuration>
             </plugin>
-        </plugins>
+        	</plugins>
 
         
     </build>
