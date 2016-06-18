@@ -15,7 +15,6 @@ public class SignUpService {
 	
 	
 	public void signUp(String accessToken) throws IOException{
-		
 		fbAPiService.getPermanentAccessToken(accessToken);		
 	}
 }

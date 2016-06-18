@@ -7,7 +7,6 @@ public class FacebookApiModule extends AbstractModule{
 	@Override
 	protected void configure() {
 		bind(FacebookApiService.class).to(restFbService.class);
-		
 	}
 
 }
