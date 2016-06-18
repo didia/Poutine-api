@@ -4,7 +4,12 @@ import com.google.api.server.spi.ServiceException;
 
 public class FailedToGetPermanentAccessTokenException  extends ServiceException {
 	
-	  public FailedToGetPermanentAccessTokenException(String message) {
+	  /**
+	 * 
+	 */
+	private static final long serialVersionUID = -2314084548347146572L;
+
+	public FailedToGetPermanentAccessTokenException(String message) {
 		    super(500, message);
 		  }
 }

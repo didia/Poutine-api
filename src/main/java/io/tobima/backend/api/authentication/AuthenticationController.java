@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import io.tobima.backend.api.ServiceExceptions.FailedToGetPermanentAccessTokenException;
 import io.tobima.backend.services.signup.SignUpService;
-import com.google.api.server.spi.auth.common.User;
 import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiNamespace;
 import com.google.api.server.spi.config.ApiMethod;

@@ -26,6 +26,7 @@ public class GuiceContextListener extends GuiceServletContextListener {
 		return Guice.createInjector(moduleList);
 	}
 
+	@SuppressWarnings("unused")
 	private static class GuiceSSSModule extends GuiceSystemServiceServletModule {
 		@Override
 		protected void configureServlets() {
